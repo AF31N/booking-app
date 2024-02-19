@@ -1,0 +1,74 @@
+.fp {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.fpItem {
+  flex: 1;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fpImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.fpDetails {
+  padding: 16px;
+}
+
+.fpName {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.fpCity {
+  font-weight: 300;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.fpPrice {
+  font-weight: 500;
+  color: #007bff;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.fpRating {
+  display: flex;
+  align-items: center;
+}
+
+.fpRating button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.fpRating span {
+  color: #555;
+  font-size: 14px;
+}
+
+/* Add hover effect */
+.fpItem:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}

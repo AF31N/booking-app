@@ -1,0 +1,248 @@
+
+  
+  /* Book Now Button Styles */
+  .bookNow {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    padding: 10px 20px;
+    background-color: #ff5a5f;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .bookNow:hover {
+    background-color: #d4353d;
+  }
+  
+  /* hotelContainer Styles */
+  .hotelContainer {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  /* hotelWrapper Styles */
+  .hotelWrapper {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto; /* Center the entire card horizontally */
+    text-align: center; /* Center text content */
+  }
+
+  
+  /* hotelTitle Styles */
+  .hotelTitle {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  /* hotelAddress Styles */
+  .hotelAddress {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  /* hotelDistance Styles */
+  .hotelDistance {
+    color: #0071c2;
+    font-weight: 500;
+  }
+  
+  /* hotelPriceHighlight Styles */
+  .hotelPriceHighlight {
+    color: #008009;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  /* hotelImages Styles */
+  .hotelImages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  /* hotelImgWrapper Styles */
+  .hotelImgWrapper {
+    width: calc(33.33% - 10px);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* hotelImg Styles */
+  .hotelImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .hotelImg:hover {
+    transform: scale(1.05);
+  }
+  
+  /* hotelDetails Styles */
+  .hotelDetails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: relative;
+  }
+  
+  /* hotelDetailsTexts Styles */
+  .hotelDetailsTexts {
+    flex: 2;
+  }
+  
+  /* hotelDesc Styles */
+  .hotelDesc {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* hotelDetailsPrice Styles */
+  .hotelDetailsPrice {
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+  }
+  
+  /* Perfect for a 9-night stay Styles */
+  .hotelDetailsPrice h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Location Score Styles */
+  .hotelDetailsPrice span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Total Price Styles */
+  .hotelDetailsPrice h2 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #ff5a5f;
+  }
+  
+  /* Reserve or Book Now Button Styles */
+  .hotelDetailsPrice button {
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hotelDetailsPrice button:hover {
+    background-color: #d4353d;
+  }
+  
+  /* MailList Styles */
+  .mailList {
+    width: 100%; /* Take 100% width */
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto; /* Center MailList horizontally */
+    margin-right: -50px; /* Adjust margin as needed */
+  }
+  
+  /* Footer Styles */
+  .footer {
+    margin: auto; /* Center Footer horizontally */
+  }
+  
+  /* slider Styles */
+/* slider Styles */
+.slider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the transparency to your liking */
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sliderWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sliderImg {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain; /* Maintain aspect ratio */
+}
+
+/* arrow Styles */
+/* arrow Styles */
+/* arrow Styles */
+.arrow {
+  font-size: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  color: lightgrey;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.arrow.left {
+  left: 20px;
+}
+
+.arrow.right {
+  right: 20px;
+}
+
+.arrow:hover {
+  color: white;
+}
+
+/* close Styles */
+.close {
+  font-size: 30px;
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  color: lightgrey;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close:hover {
+  color: white;
+}

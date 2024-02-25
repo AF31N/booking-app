@@ -1,6 +1,7 @@
 {
   "name": "bookingapp",
   "homepage": "https://AF31N.github.io/booking-app",
+  "homepage": "https://preeminent-florentine-341ffc.netlify.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

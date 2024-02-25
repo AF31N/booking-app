@@ -1,7 +1,6 @@
 import React from 'react';
 import './SearchItem.css';
 import { useNavigate } from 'react-router-dom';
-import Hotel from '../../pages/hotel/Hotel';
 
 const SearchItem = () => {
   const navigate = useNavigate();
@@ -30,7 +29,6 @@ const SearchItem = () => {
     {
       src:'https://cf.bstatic.com/xdata/images/hotel/square600/377502255.webp?k=22b6ec47847747e5af8319ac49da2287a123b261b6a4fc9d622e023e72618921&o='
     },
-
   ];
 
   return (
